@@ -51,4 +51,5 @@ button{
     border-radius: 20px;
     background: linear-gradient(135deg, #00c6ff, #ff7eb3);
     color: beige;
+    width: 80%;
 }
