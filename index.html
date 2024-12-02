@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms task</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <!--adding the form for name email and phone number -->
+        <form action="">
+            
+            <h1>Test form</h1>
+            <div class="inputfield">
+                <div>
+                    <label for="">Full name</label><br><br>
+                    <input class="inputfield" type="text" name="name" id="name" placeholder="Enter your name"><br><br>
+                </div>
+                <div>
+                    <label for="">Email</label><br><br>
+                    <input class="inputfield" type="email" name="mail" id="mail" placeholder="Enter your email"><br><br>
+                </div>
+                
+                <div>
+                    <label for="">Phone Number</label><br><br>
+                    <input class="inputfield" type="tel" name="phone" id="phone" placeholder="Enter your phone number"> <br><br>
+                </div>
+            </div>
+    
+
+        <!--adding the form for age -->
+            <label for="">Age</label><br>
+            <div class="radio-button">
+                <div>
+                    <input type="radio" name="" id="">
+                    <label for=""> >18 </label>
+                </div>
+
+                <div>
+                    <input type="radio" name="" id="">
+                    <label for=""> 18-35 </label>
+                </div>    
+                <div>
+                    <input type="radio" name="" id="">
+                <label for=""> 35+ </label><br><br>
+                </div>
+            </div> 
+
+        <!--adding the form for education -->
+            <label for="">Education</label><br>
+            <div class="checkbox-button">
+                <div>
+                    <input type="checkbox" name="" id="">
+                    <label for="">High School</label>
+                </div> 
+
+                <div>
+                    <input type="checkbox" name="" id="">
+                    <label for="">Some college</label>
+                </div>     
+            
+                <div>
+                    <input type="checkbox" name="" id="">
+                    <label for="">Associate's degree</label>
+                </div> 
+
+                <div>
+                    <input type="checkbox" name="" id="">
+                    <label for="">Bachelor's degree</label>
+                </div> 
+            </div><br><br>
+        <!-- form for selecting the date -->
+            <label for="">Appointment date</label><br><br>
+            <input class="inputfield" type="date" name="Appointment date" placeholder="dd-mm-yyyy"><br><br>
+
+        <!-- dropdown menu to add reason for appointment -->
+            <label for="reason">Select a reason</label><br><br>
+            <select class="inputfield" name="reason"id="reason">
+                <option value="Select reason"disabled selected>Select a reason</option>
+                <option value="Inquiry">Product Inquiry</option>
+                <option value="Interview">Interview</option>
+                <option value="Meeting">Meeting</option>
+                <option value="Other">Other</option>
+            </select><br><br>
+            <!-- creating message box and submit button -->
+            <label for="message">Enter your message here</label><br><br>
+            <textarea class="inputfield" id="message" placeholder="Enter a Message"></textarea><br><br>
+            <div class="button-box">
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+
+    </div>
+</body>
+</html>
